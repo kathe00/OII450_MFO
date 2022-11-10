@@ -12,9 +12,6 @@ Para el correcto funcionamiento de la lectura de la instancia, se recomienda uti
 
 En las lineas 36 a 40 se encuentran los parámetros que utiliza el algoritmo. En la linea 36 se define el número de polillas (agentes buscadores), en las lineas 38 y 39 se definen los límites máximo y mínimo que pueden alcanzar los valores de las soluciones que encuentra el algoritmo. Y finalmente en la linea 40 se encuentra la cantidad máxima de iteraciones.
 
-### Ejecución del programa
-Para realizar la prueba del algoritmo solo es necesario ejecutar el archivo **main.py**.
-
 ```
 nro_moths = 70
 dim = instancia.columnas // no cambiar
@@ -22,3 +19,7 @@ ub = 100
 lb = -100
 max_iter = 20
 ```
+
+### Ejecución del programa
+Para realizar la prueba del algoritmo solo es necesario ejecutar el archivo **main.py**.
+
