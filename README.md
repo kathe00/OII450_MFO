@@ -14,3 +14,11 @@ En las lineas 36 a 40 se encuentran los parámetros que utiliza el algoritmo. En
 
 ### Ejecución del programa
 Para realizar la prueba del algoritmo solo es necesario ejecutar el archivo **main.py**.
+
+```
+nro_moths = 70
+dim = instancia.columnas // no cambiar
+ub = 100
+lb = -100
+max_iter = 20
+```
