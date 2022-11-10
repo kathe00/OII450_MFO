@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 
 # Leer la instancia
-instancia = leerInstancia("http://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp61.txt")
+instancia = leerInstancia("http://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp41.txt")
 
 # valores de prueba
 #instancia.filas = 3
@@ -33,11 +33,11 @@ print("\nMatriz A:")
 print(instancia.matriz_A)
 
 # Definir parámetros
-nro_moths = 10
-dim = instancia.columnas
+nro_moths = 70
+dim = instancia.columnas // no cambiar
 ub = 100
 lb = -100
-max_iter = 500
+max_iter = 20
 
 # Iniciar Algoritmo
 print("\nIniciando MFO...\n")
